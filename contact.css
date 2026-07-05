@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 430px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid deeppink;
+    object-fit: cover;
+}
+
+.profile h2 {
+    margin-top: 15px;
+}
+
+.profile p {
+    color: #aaa;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background: #111;
+    padding: 18px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.card i {
+    font-size: 30px;
+    color: #00bfff;
+    width: 35px;
+}
+
+.action {
+    display: flex;
+    gap: 10px;
+}
+
+.action a {
+    flex: 1;
+    text-align: center;
+    padding: 12px;
+    background: #0095f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.action a:hover {
+    background: #0077cc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.buttons a {
+    width: 48%;
+    text-align: center;
+    padding: 14px;
+    background: #0095f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.buttons a:hover {
+    background: #0077cc;
+}
