@@ -40,7 +40,7 @@ body {
 
 /* Profile */
 
-/* .profile {
+.profile {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
@@ -57,7 +57,7 @@ body {
 .profile-info {
     flex: 1;
     margin-left: 25px;
-} */
+}
 
 .stats {
     display: flex;
